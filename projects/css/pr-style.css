@@ -8,9 +8,6 @@
     background-color: #151515;
 }
 
-html { overflow-y: scroll; overflow-x:hidden; }
-/* body { position: absolute; } */
-
 .container-navbar {
     text-align: left;
     width: 100%;
@@ -42,7 +39,41 @@ html { overflow-y: scroll; overflow-x:hidden; }
 }
 
 .container-main {
-    text-align: center;
+    text-align: left;
+    /* position: fixed; */
+    width: 100%;
+    top: 40%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container-main h1 {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.container-main p {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.container-main a {
+    background: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container-main button {
+    border: none;
+    background: linear-gradient(to right, #478ac9, #e68387);
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.container-main {
+    text-align: left;
     position: fixed;
     width: 100%;
     top: 40%;
@@ -81,76 +112,4 @@ html { overflow-y: scroll; overflow-x:hidden; }
     width: 100%;
     padding: 20px;
     background-color: #1f1f1f;
-}
-
-.btn-move {
-    vertical-align: middle;
-    margin: 0;
-    width: 96.5%
-}
-
-/* Projects.html------------------------------------------------------------------ */
-
-.pr-container-main {
-    text-align: left;
-    position: fixed;
-    width: 100%;
-    top: 40%;
-}
-
-.pr-container-main h1 {
-    color: aliceblue;
-    font-family: sans-serif;
-}
-
-.pr-container-main p {
-    font-family: sans-serif;
-    font-size: 19px;
-    color: aliceblue;
-}
-
-.pr-container-main a {
-    background: none;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.pr-container-main button {
-    border: none;
-    background: linear-gradient(to right, #478ac9, #e68387);
-    font-size: 20px;
-    padding: 10px;
-    margin: 0px 5px;
-}
-
-.pr2-container-main {
-    text-align: left;
-    position: fixed;
-    width: 100%;
-    top: 40%;
-}
-
-.pr2-container-main h1 {
-    color: aliceblue;
-    font-family: sans-serif;
-}
-
-.pr2-container-main p {
-    font-family: sans-serif;
-    font-size: 19px;
-    color: aliceblue;
-}
-
-.pr2-container-main a {
-    background: none;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.pr2-container-main button {
-    border: none;
-    background: linear-gradient(to right, #478ac9, #e68387);
-    font-size: 20px;
-    padding: 10px;
-    margin: 0px 5px;
 }
