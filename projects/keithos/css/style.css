@@ -89,6 +89,11 @@
     font-family: sans-serif;
 }
 
+.container-main h3 {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
 .container-main p ul li{
     font-family: sans-serif;
     font-size: 19px;
